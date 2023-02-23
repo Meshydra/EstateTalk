@@ -6,47 +6,77 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="57dp"
-        android:layout_height="82dp"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.152"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="639dp" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="398dp" />
-
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="444dp" />
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="524dp"
-        android:layout_height="795dp"
-        app:srcCompat="@drawable/__2srcxcoi2c9o0vfc"
-        tools:layout_editor_absoluteX="-57dp"
-        tools:layout_editor_absoluteY="-268dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-93dp" />
+
+    <TextView
+        android:id="@+id/txtSign"
+        android:layout_width="93dp"
+        android:layout_height="43dp"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="303dp"
+        android:layout_height="43dp"
+        android:background="#38ffffff"
+        android:hint="Username"
+        android:padding="20px"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:id="@+id/editName2"
+        android:layout_width="303dp"
+        android:layout_height="43dp"
+        android:background="#38ffffff"
+        android:hint="Password"
+        android:padding="20px"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="132dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/white"
+        android:text="Sign up"
+        android:textColor="@color/purple_200"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/txtEstate"
+        android:layout_width="202dp"
+        android:layout_height="59dp"
+        android:text="Estate Talk"
+        android:textColor="@color/white"
+        android:textSize="100px"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txtSign"
+        android:layout_width="93dp"
+        android:layout_height="43dp"
+        android:text="Or"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="60px"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="582dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
